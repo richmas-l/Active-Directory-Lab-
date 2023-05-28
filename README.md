@@ -10,7 +10,7 @@ Through this AD lab build, we aim to create a safe yet realistic environment for
 
 ## ENVIRONMENTS USED
 - Kali linux</b> 
-- Windows Server 2022</b>
+- Windows Server 2019</b>
 - Windows 10 Enterprise</b> 
 - Oracle VirtualBox</b>
 
@@ -21,16 +21,17 @@ Update, upgrade & reboot linux machine
 sudo apt upgrade && update -y
 ```
 - [Download & install Oracle Virtualbox](https://www.geeksforgeeks.org/how-to-install-virtual-box-in-kali-linux/)
-- [Download Windows Server 2022 ISO Image](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022)</b>
+- [Download Windows Server 2019 ISO Image](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019)</b>
 - [Download Windows 10 Enterprise](https://www.microsoft.com/en-us/evalcenter/download-windows-10-enterprise)</b>
 
 ## AD Build Instructions
 ### Domain Controller
 
-Lets start with installing our Domain controller which is the Windows Server 2022. This acts as a central authority that ensures security, manages access, and keeps things organized within a network of computers in an organization.
+Lets start with installing our Domain controller which is the Windows Server 2019. This acts as a central authority that ensures security, manages access, and keeps things organized within a network of computers in an organization. 
 
-<img src="https://imgur.com/gumqIyk.png"
-     alt="BugBountyToolkit"
+If you encounter error "**Windows cannot find microsoft Software license Terms** ..."  remove the virtual floppy drive and restart the process. 
+
+<img src="https://imgur.com/bRChFmg.png"
      style="float: left; margin-right: 10px;" />
 
 
