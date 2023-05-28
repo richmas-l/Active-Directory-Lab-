@@ -20,9 +20,9 @@ Update, upgrade & reboot linux machine
 ```
 sudo apt upgrade && update -y
 ```
-[Download & install Virtualbox](https://www.geeksforgeeks.org/how-to-install-virtual-box-in-kali-linux/)
-[Download Windows Server 2022 ISO Image](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022)
-[Download Windows 10 Enterprise](https://www.microsoft.com/en-us/evalcenter/download-windows-10-enterprise)
+- [Download & install Oracle Virtualbox](https://www.geeksforgeeks.org/how-to-install-virtual-box-in-kali-linux/)
+- [Download Windows Server 2022 ISO Image](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022)</b>
+- [Download Windows 10 Enterprise](https://www.microsoft.com/en-us/evalcenter/download-windows-10-enterprise)</b>
 
 ## Docker Run Instructions
 ### Run with Bash
