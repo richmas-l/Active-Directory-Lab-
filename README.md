@@ -24,11 +24,17 @@ sudo apt upgrade && update -y
 - [Download Windows Server 2022 ISO Image](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022)</b>
 - [Download Windows 10 Enterprise](https://www.microsoft.com/en-us/evalcenter/download-windows-10-enterprise)</b>
 
-## Docker Run Instructions
-### Run with Bash
-```
-docker run -it hackersploit/bugbountytoolkit /bin/bash
-```
+## AD Build Instructions
+### Domain Controller
+
+Lets start with installing our Domain controller which is the Windows Server 2022. This acts as a central authority that ensures security, manages access, and keeps things organized within a network of computers in an organization.
+
+<img src="https://imgur.com/gumqIyk.png"
+     alt="BugBountyToolkit"
+     style="float: left; margin-right: 10px;" />
+
+
+
 ### Run with ZSH
 ```
 docker run -it hackersploit/bugbountytoolkit /usr/bin/zsh
