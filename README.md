@@ -44,23 +44,54 @@ After the installation is complete, go to pc name and change it to an easy to re
 This will acts as a central authority that ensures security, manages access, and keeps things organized within a network of computers in an organization. 
 Restart your server, upon restart you should have a windows server manager dashboard. 
 - You will click Manage on the top right of your screen.
-- Add roles & features.
+- **Add roles & features**.
 - Click next on default selections until you reach server roles. 
-- Check Active Directory Domain Services in server roles
+- Check **Active Directory Domain Services** in server roles
 
 <img src="https://imgur.com/CsIJ3In.png"
+     style="float: left; margin-right: 10px;" />
+     
+Click next until you finally get to install. 
+
+<img src="https://imgur.com/C6KMbCQ.png"
+     style="float: left;margin-right: 10px;" />
+
+
+Once complete with installation you will see a notification pop up on the top right. <br />
+click it **promote this server to a domain controller.**
+
+<img src="https://imgur.com/7Ww45EH.png"
+     style="float: left;margin-right: 10px;" />
+
+### Domain Controller Configuration
+Once you promote the server to domain controller, you will have a configuration pop up
+
+-**Deployment configuration**: Add a new forest: Name your domain and give it a .local (company.local)<br />
+-**Domain Controll Options**: Create a password<br />
+-**Click next for rest of steps until installation and auto reboot**
+
+<img src="https://imgur.com/xhxf7q3.png"
+     style="float: left; margin-right: 10px;" />
+     
+### Domain Controller Complete
+You have finally completed the creation of the domain controller.<br />
+As you can see your next login will show the domain controller name/administrator
+
+<img src="https://imgur.com/6thQNjT.png"
+     style="float: left; margin-right: 10px;" />
+
+
+### Add 2 Users
+- Start the installation process again like you did the server above<br />
+- Rename the pc name<br />
+- Repeat once more. <br />
+- You should have 2 Users now<br />
+
+<img src="https://imgur.com/6thQNjT.png"
      style="float: left; margin-right: 10px;" />
 
 
 
-
-
-
-
-### Run with ZSH
-```
-docker run -it hackersploit/bugbountytoolkit /usr/bin/zsh
-```
 
 [![asciicast](https://asciinema.org/a/sMorBlA5yzTIwfdiWzdRR3yEh.svg)](https://asciinema.org/a/sMorBlA5yzTIwfdiWzdRR3yEh)
 
