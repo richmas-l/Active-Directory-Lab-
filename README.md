@@ -25,14 +25,35 @@ sudo apt upgrade && update -y
 - [Download Windows 10 Enterprise](https://www.microsoft.com/en-us/evalcenter/download-windows-10-enterprise)</b>
 
 ## AD Build Instructions
-### Domain Controller
+### Windows Server 2019 Installation
 
-Lets start with installing our Domain controller which is the Windows Server 2019. This acts as a central authority that ensures security, manages access, and keeps things organized within a network of computers in an organization. 
+Lets start with installing the Windows Server 2019. 
 
 If you encounter error "**Windows cannot find microsoft Software license Terms** ..."  remove the virtual floppy drive and restart the process. 
 
 <img src="https://imgur.com/bRChFmg.png"
      style="float: left; margin-right: 10px;" />
+
+After the installation is complete, go to pc name and change it to an easy to recognise name for a domain controller. 
+
+<img src="https://imgur.com/vo0A2sw.png"
+     style="float: left; margin-right: 10px;" />
+
+
+### Domain Controller Installation
+This will acts as a central authority that ensures security, manages access, and keeps things organized within a network of computers in an organization. 
+Restart your server, upon restart you should have a windows server manager dashboard. 
+- You will click Manage on the top right of your screen.
+- Add roles & features.
+- Click next on default selections until you reach server roles. 
+- Check Active Directory Domain Services in server roles
+
+<img src="https://imgur.com/CsIJ3In.png"
+     style="float: left; margin-right: 10px;" />
+
+
+
+
 
 
 
