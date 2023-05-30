@@ -80,33 +80,44 @@ As you can see your next login will show the domain controller name/administrato
 <img src="https://imgur.com/6thQNjT.png"
      style="float: left; margin-right: 10px;" />
 
-
 ### Add 2 Users
 - Start the installation process again like you did the server above<br />
 - Rename the pc name<br />
 - Repeat once more. <br />
-- You should have 2 Users now<br />
+- You are all done now, 2 users and the domain controller<br />
 
-<img src="https://imgur.com/6thQNjT.png"
+<img src="https://imgur.com/54lJx7x.png"
+     style="float: left; margin-right: 10px;" />
+
+# USERS, GROUPS & POLICIES
+
+### Users
+- Start your domain controller & head over to the **Tools** tab on the top right.<br />
+- Click **Active Directory Users & Computers**<br />
+- Right click on your domain controller name, and **create new organizational units** name them Groups<br />
+
+<img src="https://imgur.com/3XyRJ6j.png"
      style="float: left; margin-right: 10px;" />
 
 
 
+- <br />
+- <br />
+- <br />
+- <br />
+- <br />
 
-[![asciicast](https://asciinema.org/a/sMorBlA5yzTIwfdiWzdRR3yEh.svg)](https://asciinema.org/a/sMorBlA5yzTIwfdiWzdRR3yEh)
 
-## Docker Build Instructions
-```
-docker build . -t hackersploit/bugbountytoolkit
-```
 
-## Installation Instructions - Ubuntu/Debian
-```
-git clone https://github.com/AlexisAhmed/BugBountyToolkit.git
-cd BugBountyToolkit
-chmod +x install.sh
-./install.sh
-```
+
+
+
+
+
+
+
+
+
 ## Installing New Tools
 You can install new tools from the Kali Linux repositories by utilizing the Katoolin script.
 ```
