@@ -99,6 +99,13 @@ As you can see your next login will show the domain controller name/administrato
 <img src="https://imgur.com/3XyRJ6j.png"
      style="float: left; margin-right: 10px;" />
 
+- Remove all users excluding **Administrator & Guest** in the **Users folder** and place them into the new group you created above<br />
+- Then go back into the **Users** folder where it should look like below<br />
+
+<img src="https://imgur.com/Vv6Ip7Z.png"
+     style="float: left; margin-right: 10px;" />
+
+
 
 
 - <br />
